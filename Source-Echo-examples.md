@@ -1,3 +1,13 @@
+**Docker** and **Hass Add-on** users has preinstalled `python3` without any additional libraries, like [requests](https://requests.readthedocs.io/) or others. If you need some additional libraries - you need to install them to folder with your script.
+
+**Hass Add-on**
+
+1. Install [SSH & Web Terminal](https://github.com/hassio-addons/addon-ssh)
+2. Goto Add-on Web UI
+3. Install library: `pip install requests -t /config/echo`
+4. Add your script to `/config/echo/myscript.py`
+5. Use your script as source `echo:python3 /config/echo/myscript.py`
+
 ## Apple HLS
 
 ```yaml
@@ -13,14 +23,13 @@ streams:
 import re
 import sys
 from urllib.parse import urljoin
+from urllib.request import urlopen
 
-import requests
+html = urlopen(sys.argv[1]).read().decode("utf-8")
+url = re.search(r"https.+?m3u8", html)[0]
 
-r = requests.get(sys.argv[1])
-url = re.search(r"https.+?m3u8", r.text)[0]
-
-r = requests.get(url)
-m = re.search(r"^[a-z0-1/_]+\.m3u8$", r.text, flags=re.MULTILINE)
+html = urlopen(url).read().decode("utf-8")
+m = re.search(r"^[a-z0-1/_]+\.m3u8$", html, flags=re.MULTILINE)
 url = urljoin(url, m[0])
 
 print("ffmpeg:" + url + "#video=copy")
