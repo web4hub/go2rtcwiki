@@ -12,8 +12,6 @@
 
 ```yaml
 streams:
-  # script will print:
-  # ffmpeg:https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_16x9/gear1/prog_index.m3u8#video=copy
   apple_hls: echo:python3 hls.py https://developer.apple.com/streaming/examples/basic-stream-osx-ios5.html
 ```
 
@@ -32,5 +30,6 @@ html = urlopen(url).read().decode("utf-8")
 m = re.search(r"^[a-z0-1/_]+\.m3u8$", html, flags=re.MULTILINE)
 url = urljoin(url, m[0])
 
+# ffmpeg:https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_16x9/gear1/prog_index.m3u8#video=copy
 print("ffmpeg:" + url + "#video=copy")
 ```
