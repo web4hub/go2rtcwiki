@@ -1,3 +1,5 @@
+## Install python libraries
+
 **Docker** and **Hass Add-on** users has preinstalled `python3` without any additional libraries, like [requests](https://requests.readthedocs.io/) or others. If you need some additional libraries - you need to install them to folder with your script.
 
 **Hass Add-on**
@@ -8,7 +10,7 @@
 4. Add your script to `/config/echo/myscript.py`
 5. Use your script as source `echo:python3 /config/echo/myscript.py`
 
-## Apple HLS
+## Example: Apple HLS
 
 ```yaml
 streams:
