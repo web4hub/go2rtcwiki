@@ -1,8 +1,6 @@
 ## Install python libraries
 
-**Docker** and **Hass Add-on** users has preinstalled `python3` without any additional libraries, like [requests](https://requests.readthedocs.io/) or others. If you need some additional libraries - you need to install them to folder with your script.
-
-**Hass Add-on**
+**Docker** and **Hass Add-on** users has preinstalled `python3` without any additional libraries, like [requests](https://requests.readthedocs.io/) or others. If you need some additional libraries - you need to install them to folder with your script:
 
 1. Install [SSH & Web Terminal](https://github.com/hassio-addons/addon-ssh)
 2. Goto Add-on Web UI
