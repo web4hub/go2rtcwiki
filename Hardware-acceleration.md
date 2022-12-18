@@ -1,5 +1,3 @@
-# Hardware acceleration
-
 You **DON'T** need hardware acceleration if:
 
 - you not using [FFmpeg source](https://github.com/AlexxIT/go2rtc#source-ffmpeg)
