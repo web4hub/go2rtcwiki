@@ -51,7 +51,7 @@ Linux and Docker:
 
 Docker users should add `--privileged` option to container for access to Hardware.
 
-**PS.** Supported via [VAAPI](https://trac.ffmpeg.org/wiki/Hardware/VAAPI) engine.
+**PS.** Supported via [VAAPI](https://trac.ffmpeg.org/wiki/Hardware/VAAPI) engine on Linux and [DXVA2+QSV](https://trac.ffmpeg.org/wiki/Hardware/QuickSync) engine on Windows.
 
 ## AMD GPU
 
