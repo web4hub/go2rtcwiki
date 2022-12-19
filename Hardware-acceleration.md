@@ -14,8 +14,8 @@ You **NEED** hardware acceleration if you using `#video=h264`, `#video=h265`, `#
 - go2rtc can automatically detect supported hardware acceleration if enabled
 - go2rtc will enable hardware decoding only if hardware encoding supported
 - go2rtc will use the same GPU for decoder and encoder
-- Intel and AMD will switch to software decoder if input codec is not supported
-- NVidia will fail if input codec is not supported
+- Intel and AMD will switch to software decoder if input codec is not supported with hardware decoder
+- NVidia will fail if input codec is not supported with hardware decoder
 - Raspberry always uses software decoder
 
 ```yaml
