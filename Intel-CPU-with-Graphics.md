@@ -10,13 +10,15 @@
 | 9   | Skylake             | 2015 | i3/5/7-6000                  |            | (G)4000                | 3900, 3800                 |
 | 9   | Apollo Lake (SoC)   | 2016 |                              | E3-1x00 v5 | (J/N)4xxx              | (J/N)3xxx                  |
 | 9.5 | Kaby Lake           | 2016 | m3/i3/5/7-7000               |            | (G)4000                | (G)3900, 3800              |
-| 9.5 | Amber Lake          | 2018 |                              |            |                        |                            |
 | 9.5 | Coffee Lake         | 2017 | i3/5/7/9-8000, i3/5/7/9-9000 | E-2x00     | (G)5xxx                | (G)49xx                    |
-| 9.5 | Whiskey Lake        | 2018 | i3/5/7-8000U                 |            |                        |                            |
 | 9.5 | Gemini Lake (SoC)   | 2017 |                              | E3-1x00 v6 | (J/N)5xxx              | (J/N)4xxx                  |
-| 10  | Comet Lake          | 2019 | i3/5/7-10xxx                 | W-108xxM   | (G)6x00                | G59x0                      |
+| 9.5 | Whiskey Lake        | 2018 | i3/5/7-8000U                 |            |                        |                            |
+| 9.5 | Amber Lake          | 2018 |                              |            |                        |                            |
+| 9.5 | Comet Lake          | 2019 | i3/5/7-10xxx                 | W-108xxM   | (G)6x00                | G59x0                      |
 | 11  | Ice Lake            | 2019 | i3/5/7-10xx(N)Gx             |            |                        |                            |
 | 12  | Tiger Lake          | 2020 | i3/5/7-11xx(N)Gx             | W-11xxxM   | (G)7xxx                | (G)6xxx                    |
+
+Gen - Graphic generation, not related to CPU generation
 
 - **Sandy Bridge** (2011): decoding/encoding for AVC/H.264
 - **Sandy Bridge** (2011): OpenVINO Detector for Frigate 12+
