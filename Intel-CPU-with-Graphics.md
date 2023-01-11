@@ -1,6 +1,6 @@
 | Name              | Gen | Year | Core                         | Xeon       | Pentium                | Celeron                    |
 |-------------------|-----|------|------------------------------|------------|------------------------|----------------------------|
-| Westmere          | 5.5 | 2010 | i3/5/7-xxx                   |            | (G/P)6000, U5000       | P4000, U3000               |
+| Westmere/Ironlake | 5.5 | 2010 | i3/5/7-xxx                   |            | (G/P)6000, U5000       | P4000, U3000               |
 | Sandy Bridge      | 6   | 2011 | i3/5/7-2000                  | E3-1200    | (B)900, (G)800, (G)600 | (B)800, (B)700, G500, G400 |
 | Ivy Bridge        | 7   | 2012 | i3/5/7-3000                  | E3-1200 v2 | (G)2000, A1018         | G1600, 1000, 900           |
 | Bay Trail         | 7   | 2013 |                              |            | J2000, N3500, A1020    | J1000, N2000               |
@@ -16,10 +16,12 @@
 | Ice Lake          | 11  | 2019 | i3/5/7-10xx(N)Gx             |            |                        |                            |
 | Tiger Lake        | 12  | 2020 | i3/5/7-11xx(N)Gx             | W-11xxxM   | (G)7xxx                | (G)6xxx                    |
 
-- Sandy Bridge (2011): decoding/encoding for AVC/H.264
-- Sandy Bridge (2011): OpenVINO Detector for Frigate 12+
-- Braswell (2013): decoding/encoding for MJPEG
-- Skylake (2015): decoding/encoding for HEVC/H.265
+- **Sandy Bridge** (2011): decoding/encoding for AVC/H.264
+- **Sandy Bridge** (2011): OpenVINO Detector for Frigate 12+
+- **Braswell** (2013): decoding/encoding for MJPEG
+- **Skylake** (2015): decoding/encoding for HEVC/H.265
+- [i965-va-driver](https://packages.debian.org/ru/sid/i965-va-driver) from **Westmere** to **Coffee Lake**
+- [intel-media-va-driver](https://packages.debian.org/sid/intel-media-va-driver) from **Broadwell**
 
 ## Useful links
 
