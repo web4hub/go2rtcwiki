@@ -16,6 +16,8 @@
 | 9.5 | Amber Lake          | 2018 |                              |            |                        |                            |
 | 9.5 | Comet Lake          | 2019 | i3/5/7-10xxx                 | W-108xxM   | (G)6x00                | G59x0                      |
 | 11  | Ice Lake            | 2019 | i3/5/7-10xx(N)Gx             |            |                        |                            |
+| 11  | Lakefield           | 2020 | ???                          |            |                        |                            |
+| 11  | Elkhart/Jasper Lake | 2021 |                              |            | ???                    | ???                        |
 | 12  | Tiger Lake          | 2020 | i3/5/7-11xx(N)Gx             | W-11xxxM   | (G)7xxx                | (G)6xxx                    |
 
 Gen - Graphic generation, not related to CPU generation
