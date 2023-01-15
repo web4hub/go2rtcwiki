@@ -4,6 +4,8 @@ This examples for Home Assistant [Telegram Bot](https://www.home-assistant.io/in
 - change `target` to your Telegram chat ID (support list)
 - change `src=camera1` to your stream name from go2rtc config
 
+**Important.** Snapshot will be near instant for most cameras and many sources, except `ffmpeg` source. Because it takes a long time for ffmpeg to start streaming with video, even when you use `#video=copy`. Also the delay can be with cameras that do not start the stream with a keyframe.
+
 ## Snapshot from H264 or H265 camera
 
 ```yaml
