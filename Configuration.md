@@ -32,7 +32,7 @@ rtsp:
   password: ""
 
 srtp:
-  listen: ":8433"
+  listen: ":8443"
 
 streams: {}
 
