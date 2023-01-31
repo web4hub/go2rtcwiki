@@ -18,8 +18,8 @@ streams:
 ${LOGS:}  # empty default value
 
 rtsp:
-  username: ${RTSP_USER:admin}
-  password: ${RTSP_PASS:secret}
+  username: ${RTSP_USER:admin}   # "admin" if env "RTSP_USER" not set
+  password: ${RTSP_PASS:secret}  # "secret" if env "RTSP_PASS" not set
 ```
 
 ## Defaults
