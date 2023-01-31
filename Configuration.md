@@ -32,7 +32,7 @@ api:
   origin: ""
 
 ffmpeg:
-  bin: ffmpeg
+  bin: "ffmpeg"
   global: "-hide_banner"
   file: "-re -stream_loop -1 -i {input}"
   http: "-fflags nobuffer -flags low_delay -i {input}"
@@ -45,7 +45,7 @@ hass:
 
 log:
   format: ""
-  level: info
+  level: "info"
 
 ngrok:
   command: ""
@@ -64,7 +64,7 @@ webrtc:
   listen: ":8555"
   candidates: []
   ice_servers:
-    - urls: [ stun:stun.l.google.com:19302 ]
+    - urls: [ "stun:stun.l.google.com:19302" ]
       username: ""
       credential: ""
 ```
