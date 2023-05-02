@@ -23,7 +23,6 @@
 Gen - Graphic generation, not related to CPU generation
 
 - **Sandy Bridge** (2011): decoding/encoding for AVC/H.264
-- **Sandy Bridge** (2011): OpenVINO Detector for Frigate 12+
 - **Haswell** (2013): decoding/encoding for MJPEG
 - **Skylake** (2015): decoding/encoding for HEVC/H.265
 - [i965-va-driver](https://packages.debian.org/ru/sid/i965-va-driver) from **Westmere** to **Coffee Lake**
