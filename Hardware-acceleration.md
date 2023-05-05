@@ -8,7 +8,6 @@ You **NEED** hardware acceleration if you using `#video=h264`, `#video=h265`, `#
 
 ## Important
 
-- Support at an early stage
 - At the moment it doesn't supports `#video=h265`!!!
 - Acceleration is disabled by default because it can be unstable (it can be changed in future)
 - go2rtc can automatically detect supported hardware acceleration if enabled
