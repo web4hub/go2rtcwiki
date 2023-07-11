@@ -28,9 +28,12 @@ data:
 
 Record from service call to the future. Doesn't support loopback.
 
+- `mp4=flac` - adds support PCM audio family
+- `filename=record.mp4` - set name for downloaded file
+
 ```yaml
 service: telegram_bot.send_video
 data:
-  url: http://localhost:1984/api/stream.mp4?src=camera1&duration=5  # duration in seconds
+  url: http://localhost:1984/api/stream.mp4?src=camera1&mp4=flac&duration=5&filename=record.mp4  # duration in seconds
   target: 123456789
 ```
