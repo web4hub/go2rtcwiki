@@ -1,1 +1,1 @@
-Moved [here](https://github.com/AlexxIT/go2rtc/blob/master/internal/app/README.md).
+Moved [here](https://github.com/web4hub/go2rtc/blob/main/internal/app/README.md).
